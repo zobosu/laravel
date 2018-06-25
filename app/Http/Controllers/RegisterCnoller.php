@@ -31,7 +31,7 @@ class RegisterCnoller extends Controller
 
 //        user save and create
         $user=User::create(request(['name','email','password']));
-        auth()->login($user);
+//        auth()->login($user);
         \Mail::to($user)->send(new Sendmail);
         return redirect('/');
     }

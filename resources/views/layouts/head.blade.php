@@ -54,7 +54,7 @@
         <nav class="nav d-flex justify-content-between">
           <a class="p-2 text-muted" href="/">Home</a>
           <a class="p-2 text-muted" href="/posts/create">New Post</a>
-          <a class="p-2 text-muted" href="#">Press</a>
+          <a class="p-2 text-muted" href="/image/createimage">ImageIntervention</a>
           <a class="p-2 text-muted" href="#">Design</a>
           <a class="p-2 text-muted " href="/posts/login">Login</a>
           <a class="p-2 text-muted" href="/posts/register">Register</a>

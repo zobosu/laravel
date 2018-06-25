@@ -22,3 +22,7 @@ Route::post('/posts/register','RegisterCnoller@user_info');
 //login
 Route::get('/posts/login','LoginController@login');
 Route::post('/posts/login','LoginController@store');
+
+//image intervention
+Route::get('/image/createimage','ImageController@create');
+Route::post('/image/createimage','ImageController@store');
