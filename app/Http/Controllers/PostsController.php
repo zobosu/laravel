@@ -11,6 +11,11 @@ class PostsController extends Controller
     {
 
 //        $article=DB::select("select * from posts");
+
+
+        $answer = shell_exec("MAC_adress.exe");
+        echo $answer."</br>";
+
         $article=DB::table("posts")->get();
         return view('posts.index',['first_articles'=>$article]);
     }

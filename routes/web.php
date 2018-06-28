@@ -12,7 +12,7 @@ Route::post('/posts','TaskController@store');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('index');
 
 //register
 
